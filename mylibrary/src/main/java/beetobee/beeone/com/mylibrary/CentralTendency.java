@@ -1,5 +1,7 @@
 package beetobee.beeone.com.mylibrary;
 
+import android.content.Intent;
+
 import java.util.Collection;
 import java.util.Iterator;
 
@@ -46,4 +48,7 @@ public class CentralTendency {
         }
         return result / numbers.size();
     }
+
+
+
 }

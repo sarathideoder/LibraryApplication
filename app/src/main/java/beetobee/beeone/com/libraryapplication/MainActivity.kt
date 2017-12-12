@@ -1,10 +1,12 @@
 package beetobee.beeone.com.libraryapplication
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.annotation.IntegerRes
 import android.widget.TextView
 import beetobee.beeone.com.mylibrary.CentralTendency
+import beetobee.beeone.com.mylibrary.SplashScreenActivity
 import java.util.Random
 import java.util.ArrayList
 import java.util.Collections
@@ -34,6 +36,11 @@ class MainActivity : AppCompatActivity() {
                 numbers, mean, median, mode)
 
         textView.text = res
+
+
+        val intent = Intent(this, SplashScreenActivity::class.java)
+        startActivity(intent)
+        finish()
 
     }
 }
