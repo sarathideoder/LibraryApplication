@@ -1,8 +1,10 @@
 # LibraryApplication
 This is a kotlin library project for testing
-CentralTendency class is the library class and it contains the method for calculating the arithmetic mean.
+This library contains bee-one ride module u can integrate as follows.
 
 Usage:
-val mean = CentralTendency.arithmeticMean(numbers).toDouble()
+val intent = Intent(this, SplashScreenActivity::class.java)
+        startActivity(intent)
+        finish()
 
 [Kotlin Library by sarath nambiar]
