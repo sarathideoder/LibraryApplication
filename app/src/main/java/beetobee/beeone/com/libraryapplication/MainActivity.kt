@@ -37,10 +37,8 @@ class MainActivity : AppCompatActivity() {
 
         textView.text = res
 
-
         val intent = Intent(this, SplashScreenActivity::class.java)
         startActivity(intent)
         finish()
-
     }
 }
